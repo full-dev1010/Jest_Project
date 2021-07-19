@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build"
+  },
+  "references": [
+    {"path": "../jest-haste-map"},
+    {"path": "../jest-runtime"},
+    {"path": "../jest-test-result"}
+  ]
+}
